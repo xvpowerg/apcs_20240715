@@ -1,0 +1,12 @@
+myList = [8,9,7,2,3]
+m1 = max(myList)
+m2 = min(myList)
+print(m1,m2)
+s = sum(myList)
+print(s)
+print("====Sort=====")
+sortList = sorted(myList)
+print("myList:",myList)
+print("sortList:",sortList)
+myList.sort()
+print(myList)

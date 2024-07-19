@@ -1,0 +1,13 @@
+#Range(開始,結束,累加)
+a = range(10)
+print(a)
+print(list(a))
+a2 = range(2,8)
+print(list(a2))
+a3 = range(0,6,2)
+print(list(a3))
+a4 = range(6,0,-1)
+print(list(a4))
+# 6 4 2
+a5 = range(6,0,-2)
+print(list(a5))
