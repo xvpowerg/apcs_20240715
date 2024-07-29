@@ -1,0 +1,1 @@
+#include <stdio.h>#include<stdlib.h>int add(int a,int b){    int c;    c = a + b;    return c;}int main(){   int ans =  add(10,2);    printf("%d",ans);    return 0;}
