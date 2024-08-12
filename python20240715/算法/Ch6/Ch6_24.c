@@ -1,1 +1,0 @@
-#include <stdio.h>#include<stdlib.h>void test(int n){        printf("%d\n",n);    if (n <= 3){       test(n + 1);     }    }int main(){           test(1);    return 0;}
